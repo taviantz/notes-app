@@ -1,8 +1,3 @@
-// as npm promised package.json looks exactly like what we had outputted in the terminal down below. 
-// the extension for this file is json which stands for javascript object notation. And as you can see it looks alittle bit like a javascript object.
-// there are a few subtle differences when using json 
-// for now all I need to know is that I will be using double quotes instead of single quotes and all of my property names like name or author they also need to be wrapped 
-
 {
   "name": "notes-app",
   "version": "1.0.0",
@@ -20,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/taviantz/notes-app/issues"
   },
-  "homepage": "https://github.com/taviantz/notes-app#readme"
+  "homepage": "https://github.com/taviantz/notes-app#readme",
+  "dependencies": {
+    "validator": "^13.7.0"
+  }
 }
